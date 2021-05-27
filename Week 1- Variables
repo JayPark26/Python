@@ -1,0 +1,12 @@
+a=3
+b=2
+print(a+b)//print addition
+print(a-b)//print subtraction
+print(a*b)//print multiplication
+print(a/b)//print divide
+print(a**b)//print squared
+print(a%b)//print remainder
+
+print(a>b)//true
+print(a<b)//false
+print(a==b)//false
