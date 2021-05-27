@@ -1,0 +1,11 @@
+text = 'abcdefghijk'
+
+result = len(text) //print out length of the text.
+result1 = text[:3] //print out first three letters
+result2 = text[3:] //print out last three letters
+
+text = '12-123-1234
+result3 = text.split('-') //result3 becomes 12, 123, 1234
+result4 = text.split('-)[0] //result4 becomes 12
+result5 = text.split('-)[1] //result5 becomes 123
+result6 = text.split('-)[2] //result6 becomes 1234
