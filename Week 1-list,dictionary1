@@ -1,0 +1,26 @@
+//.append - add a variable in array
+//.sort - arrange in order in array
+//.sort(reverse=True) - arrange larger number first in array
+//in a_list - asking if the variable is inside the array
+
+a_list = [5,3,7,8,6]
+a_list.append(10)
+print(a_list[5])  //answer is 10
+
+a_list = [5,3,7,8,6]
+a_list.sort()
+print(a_list)  //answer is [3,5,6,7,8]
+
+a_list = [5,3,7,8,6]
+a_list.sort(reverse=True)
+print(a_list)  //answer is [8,7,6,5,3]
+
+a_list[5,3,7,8,6]
+result = (5 in a_list)
+print(result) //answer is True
+
+a_dict{'name':'bob','age':'27,'friend':['john','jay']}
+a_dict[height]=180
+print(a_dict) //prints out all variables inside the array
+print(a_dict[height]) //prints out 180
+
