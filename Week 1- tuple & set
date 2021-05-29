@@ -1,0 +1,19 @@
+//Tuple is the same with list except that tuple uses (), and unchangeable
+//List uses [], variables are changeable
+//(dicitionary)  people = [{'name':'bob','age':27},{'name':'john ','age':27}]
+//(tuple)   people=[{'bob',27},{'john',27}]
+
+//set is a group of variables.
+a = [1,2,3,4,5,3,4,2,1,2,4,2,3,1,4,1,5,1]
+
+set_a = set(a)   //eliminates variables that are repeatedly used
+print(a_set)   
+------------------
+a = [1,2,3,4,5,3,4,2,1,2,4,2,3,1,4,1,5,1]
+b = [4,3,6,4,7,3]
+
+set_a = set(a)
+set_b = set(b)
+print(a_set & b_set)  //print out what they have in common
+print(a_set - b_set)  //print out what b doesn't have
+print(a_set | b_set)  //print out what they all have
