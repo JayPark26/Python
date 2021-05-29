@@ -1,0 +1,31 @@
+//Python definition
+//you use this when you repeatedly use the code
+
+def hello():
+  print('hi')
+
+hello() //prints out hi
+
+//you can use in if loop also
+
+def bus_rate(age):
+  if age > 60:
+    print('old')
+  elif age > 20:
+    print('young')
+  else:
+    print('teen')
+
+bus_rate(20)//you can set any number you like.
+
+def bus_rate(age):
+  if age > 60:
+    return 0
+  elif age > 20:
+    return 1200
+  else:
+    return 700
+    
+ result = bus_rate(20) //set any number you like.
+ print(result) 
+
