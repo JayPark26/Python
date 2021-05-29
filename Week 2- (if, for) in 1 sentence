@@ -1,0 +1,33 @@
+//aside from writing
+
+num = 3
+
+if num % 2 ==0:
+  print('even')
+else:
+  print('odd')
+
+//you can use
+
+num = 3
+
+result = ('even' if num % 2 == 0 else 'odd)
+print(result)
+
+
+//for loop, aside from writing
+
+a_list  = [1, 3, 2, 5, 1, 2]
+
+b_list = []
+for a in a_list:
+    b_list.append(a*2)
+
+print(b_list)
+//you can write
+a_list  = [1, 3, 2, 5, 1, 2]
+
+b_list = []
+
+b_list = [a*2 for a in a_list]
+print(b_list)
