@@ -1,0 +1,19 @@
+//f-string
+//makes your work a lot easier!
+scores = [
+    {'name':'영수','score':70},
+    {'name':'영희','score':65},
+    {'name':'기찬','score':75},
+    {'name':'희수','score':23},
+    {'name':'서경','score':99},
+    {'name':'미주','score':100},
+    {'name':'병태','score':32}
+]
+
+//I am trying to print out names and scores.
+for sc in scores:
+  name = sc['name']
+  score = sc['score']
+  print(f'name is {name} and score is {score}) 
+  //it is the same as:
+  print('name is'+name+' and score is'+str(score)
