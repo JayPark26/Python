@@ -1,0 +1,21 @@
+//Try this if the first letter after ('-') starts with an odd number, print man.
+//otherwise print woman.
+
+def check_gender(pin):
+
+check_gender(123114-1053820)
+check_gender(123114-2053820)
+check_gender(123114-3053820)
+
+-----------------
+def check_gender(pin): 
+    gender = pin.split('-')[1][:1]
+    if int(gender) % 2 == 0:            //i have to change to int because I cannot divide 2 from gender. Gender is String type
+        print('woman')
+    else:
+        print('man')
+
+
+check_gender('123114-1053820')
+check_gender('123114-2053820')
+check_gender('123114-3053820')
