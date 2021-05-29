@@ -1,0 +1,26 @@
+money = 5000
+
+if money>3000:          //if the conditions are met, ride taxi will be printed out.
+  print('ride taxi')    
+elif money>2500:
+  print('ride bus')
+else:                   //if the conditions are not met, walk or bicycle will be printed out.
+  print('walk')           
+  print('or bicycle')   //if you type print('or bicycle') without a tab, it will print out regardless of the result.
+
+//try this!, print out age that is greater than 20
+people = [
+    {'name': 'bob', 'age': 20},
+    {'name': 'carry', 'age': 38},
+    {'name': 'john', 'age': 7},
+    {'name': 'smith', 'age': 17},
+    {'name': 'ben', 'age': 27},
+    {'name': 'bobby', 'age': 57},
+    {'name': 'red', 'age': 32},
+    {'name': 'queen', 'age': 25}
+]
+for person in people:
+    name = person['name']
+    age = person['age']
+    if age > 20:
+        print(name, age)
