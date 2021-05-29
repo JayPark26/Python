@@ -1,0 +1,14 @@
+//importing files
+
+main_func //file name
+def say_hi():
+    print('hello')
+
+def say_hi_to(name):
+    print(f'{name} 님 안녕하세요')
+    
+
+main_test //another file name
+from main_func import * //* means import all
+say_hi()
+say_hi_to('jay')
